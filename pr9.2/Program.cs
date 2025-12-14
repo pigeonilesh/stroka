@@ -14,9 +14,13 @@ namespace pr9._2
             int len = text.Length;
             string[] slova = text.Split(' ');
             int lens = slova.Length;
+            int pos = text.IndexOf("язык");
+            bool prov = text.StartsWith("C#");
             Console.WriteLine(text);
             Console.WriteLine(len);
             Console.WriteLine(lens);
+            Console.WriteLine(pos);
+            Console.WriteLine(prov);
         }
     }
 }
